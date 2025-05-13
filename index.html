@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <h1 style="text-align:center">Job Application Form</h1>
+    <form action="" autocomplete="">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table>
+                <tr>
+                    <td> <label for="">First Name*</label></td>
+                    <td><input type='text' name="firstname" required> </td>
+                </tr>
+                <tr>
+                    <td><label for="">Last Name*</label></td>
+                    <td><input type='text' name="lastname" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Date of Birth</label></td>
+                    <td><input type='date' name="dob" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td><input type='radio' id='' name='gender' value="m">male
+                        <input type='radio' id='' name='gender' value="f">femal
+                        <input type='radio' id='' name='gender' value="o">other </td>
+                </tr>
+                <tr>
+                    <td> <label for="">Picture Picture*</label></td>
+                    <td>  <input type="file" name="picturepicture" id="" required></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Conatct Information</legend>
+            <table>
+                <tr>
+                    <td><label for="">Email*</label></td>
+                    <td><input type="email" name="email" id="" required> </td>
+                </tr>
+                <tr>
+                    <td><label for="">Phone Number*</label></td>
+                    <td><input type="tel" name="number" id="" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Address</label></td>
+                    <td><textarea name="address" id="" ></textarea></td>
+                </tr>
+
+                 <tr>
+                    <td> <label for="">Country</label></td>
+                    <td>  <select name="ciuntry" id="">
+                        <option value="In">India</option>
+                        <option value="US">USA</option>
+                        <option value="Ger">Germany</option>
+                        <option value="Ch">China</option>
+                    </select></td>
+                </tr>
+                
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Education Background</legend>
+            <table>
+                <tr>
+                    <td><label for="">Highest Qualification </label></td>
+                    <td>  <select name="highestQualification" id="" >
+                        <option value="G">Graduate</option>
+                        <option value="PG">Post-Graduate</option>
+                        <option value="UG">Under-Graduate</option>
+                        <option value="C">College</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Specialization</label></td>
+                    <td><input type="tel" name="specialization" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Year of Graduation</label></td>
+                    <td><input type="tel" name="yearofGraduation" id=""></td>
+                </tr>
+                
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Job Peferences</legend>
+            <table>
+                <tr>
+                    <td><label for="">Preferred Role</label></td>
+                    <td> <input type='text' id='' name='role'></td>
+                </tr>
+                <tr>
+                    <td><label for="">Expected Salary</label></td>
+                    <td><input type="text" name="salary" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Preferred location</label></td>
+                    <td><input type='checkbox' id='' name='gender' value="B">Bangalore
+                        <input type='checkbox' id='' name='gender' value="D">Delhi
+                        <input type='checkbox' id='' name='gender' value="P">Pune
+                        <input type='checkbox' id='' name='gender' value="R">Remote  </td>
+                </tr>
+                <tr>
+                    <td><label for="">Willing to Reloacte?</label></td>
+                    <td><input type='checkbox' id='' name='reloaction'>
+                     </td>
+                </tr>
+                
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Create Account</legend>
+            <table>
+                <tr>
+                    <td><label for="">Password* </label></td>
+                    <td> <input type='password' id='' name='pass' min="6" required placeholder="Min 6 characters"> </td>
+                </tr>
+                <tr>
+                    <td><label for="">Confirm Password* </label></td>
+                    <td> <input type='password' id='' name='Cpass' required> </td>
+                </tr>
+                
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Resume</legend>
+            <table>
+                <tr>
+                    <td><label for="">Upload Resume (only PDF)* </label></td>
+                    <td> <input type='file' id='' name='resume' required> </td>
+                </tr>
+                
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Resume</legend>
+            <table>
+                <tr>
+                    <td> <input type='checkbox' id='' name='T&S' required> </td>
+                    <td><label for="">I agree to terms and conditions*</label></td>
+                    
+                </tr>
+                <tr>
+                    <td> <input type='submit' id='' name='submit'> </td>
+                    <td><input type="reset" name="reset"></td>
+                    
+                </tr>
+                
+            </table>
+        </fieldset>
+    
+    </form>
+</body>
+</html>
+
+
